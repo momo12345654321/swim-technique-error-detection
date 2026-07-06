@@ -19,6 +19,7 @@ This repository will include:
 
 1. **Random Forest baseline**
    - Uses single-frame pose features.
+   - The current Random Forest training script uses randomly generated placeholder data. This will later be replaced with pose keypoints extracted from freestyle swimming videos.
 
 3. **ST-GCN model**
    - Uses the swimmer skeleton as a graph.
