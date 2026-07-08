@@ -9,7 +9,6 @@ The goal is to compare simple baseline models with more advanced spatial-tempora
 Given a sequence of swimmer pose keypoints from freestyle video, the model predicts technique errors such as:
 
 - dropped elbow
-- crossing midline
 - poor recovery
 - timing-related stroke errors
 
@@ -28,6 +27,7 @@ This repository will include:
 4. **ST-GCN with stroke phase prediction**
    - Predicts both stroke phase and technique error.
    - Uses stroke phases to aid accuracy in technique error prediction
+     - The stroke phases are: entry/catch, pull, push, recovery
    - This is the main proposed model.
 
 ## Current Status
